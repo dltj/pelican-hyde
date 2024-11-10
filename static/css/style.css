@@ -1,0 +1,8 @@
+.sidebar-about h1 {
+  font-size: 2rem;
+}
+
+.sidebar-about h1 a:hover,
+.sidebar-about h1 a:focus {
+  text-decoration: none;
+}

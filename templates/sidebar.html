@@ -4,7 +4,7 @@
 
 			<h1>
 				<a href="{{ SITEURL }}/">
-					<img class="profile-picture" src="{{ SITEURL }}/images/{{ PROFILE_IMAGE }}">
+					<img class="profile-picture" src="{{ SITEURL }}/assets/images/{{ PROFILE_IMAGE }}">
 					{{ SITENAME }}
 				</a>
 			</h1>
@@ -36,7 +36,7 @@
 						 'biorxiv', 'ceur', 'coursera', 'cv', 'dataverse',
 						 'dblp', 'depsy', 'doi', 'dryad', 'figshare',
 						 'google-scholar', 'ideas-repec', 'ieee', 'impactstory',
-						 'inspire', 'lattes', 'mathoverflow', 'open-access',
+						 'inspire', 'lattes', 'mathoverflow', 'open-access', 'orcid',
 						 'osf', 'overleaf', 'philpapers', 'piazza', 'publons',
 						 'pubmed', 'researcherid', 'scirate', 'semantic-scholar',
 						 'springer', 'zotero'] %}
@@ -45,7 +45,7 @@
 					</a>
 				{% else %}
 					<a class="sidebar-social-item" href="{{ link }}" target="_blank">
-						<i class="fa fa-{{ name }}"></i>
+						<i class="fa fa-brands fa-{{ name }}"></i>
 					</a>
 				{% endif %}
 			{% endfor %}
